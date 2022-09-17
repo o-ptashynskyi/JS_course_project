@@ -15,3 +15,9 @@ first: for (let i = 0; i < 3; i++) {
         }
     }
 }
+
+const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+for (i in data) {
+    console.log(data[i]);
+}
