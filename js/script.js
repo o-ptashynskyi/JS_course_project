@@ -1,18 +1,25 @@
-'use strict';
+"use strict";
 
-let incr = 10,
-    decr = 10;
+let number = 5;
+const leftBorderwidth = 1;
 
-// incr++;
-// decr--;
+number = 10;
+console.log(number);
 
-// console.log(++incr);
-// console.log(--decr);
+const obj = {
+    a: 50
+};
 
-const isChecked = true,
-      isClose = false;
+obj.a = 10;
 
-console.log(isChecked || !isClose);
+console.log(obj);
 
+console.log(name);
+var name = 'Alex';
 
+{
+    let result = 50;
+}
+
+// console.log(result);
 
